@@ -1,0 +1,35 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* :root is <html> for HTML documents */
+        --text-color: white;
+        --bg-color: black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        /* :root is <html> for HTML documents */
+        --text-color: black;
+        --bg-color: white;
+    }
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
