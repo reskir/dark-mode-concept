@@ -18,6 +18,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.dibsIcon {
+    margin-top: 18px;
+    width: 350px;
+    fill: var(--text-color);
+}
+
 html,
 body {
     padding: 0;
@@ -26,6 +32,7 @@ body {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;

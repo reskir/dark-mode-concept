@@ -24,10 +24,7 @@ module.exports = {
                         loader: "postcss-loader",
                         options: {
                             postcssOptions: {
-                                plugins: [
-                                    ["autoprefixer"],
-                                    ["postcss-dark-theme-class"],
-                                ],
+                                plugins: [["postcss-dark-theme-class"]],
                             },
                         },
                     },
